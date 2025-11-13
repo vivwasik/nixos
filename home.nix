@@ -29,7 +29,8 @@
       interactiveShellInit = ''
         set fish_greeting # Disable greeting
 
-	alias rebuild="doas nixos-rebuild switch --flake ~/nixos#laptop"
+	      alias rebuild="doas nixos-rebuild switch --flake ~/nixos#laptop"
+        alias update-flake="pushd ~/nixos; nix flake update; popd"
         alias clear="clear && pfetch"
         pfetch
 
