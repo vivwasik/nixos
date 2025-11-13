@@ -66,6 +66,7 @@
     refine
     celluloid
     vscodium
+    gnome-solanum
     
     papirus-icon-theme
     pfetch
