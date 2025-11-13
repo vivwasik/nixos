@@ -39,6 +39,19 @@
     };
   };
 
+  services = {
+    rescrobbled = {
+      enable = true;
+      settings = {
+        lastfm-key = "def5429211e7e3f0207bbc2f8d5c27eb";
+        lastfm-secret = "e523ff55fcd902f1aa03f67f9048b7ba";
+        player-whitelist = [
+          "io.bassi.Amberol"
+        ];
+      };
+    };
+  };
+
   home.packages = with pkgs; [
     firefox
     spotify
