@@ -31,6 +31,7 @@
     hideMounts = true;
     files = [
       "/etc/machine-id"
+      "/root/.gitconfig"
     ];
     directories = [
       "/var/log"
