@@ -68,15 +68,13 @@
     celluloid
     vscodium
     gnome-solanum
+    gnome-extension-manager
     
     papirus-icon-theme
     pfetch
     opusTools
     ffmpeg
     rsgain
-
-    gnomeExtensions.alphabetical-app-grid
-    gnomeExtensions.caffeine
   ];
 
   dconf = {
