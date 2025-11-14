@@ -96,6 +96,7 @@
     geary
     decibels
     seahorse
+    showtime
     gnome-calendar
     gnome-connections
     gnome-contacts
