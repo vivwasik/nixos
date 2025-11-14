@@ -67,6 +67,7 @@
     refine
     celluloid
     vscodium
+    apostrophe
     gnome-solanum
     gnome-extension-manager
     
