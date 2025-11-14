@@ -72,7 +72,8 @@
     pfetch
     opusTools
     ffmpeg
-    
+    rsgain
+
     gnomeExtensions.alphabetical-app-grid
     gnomeExtensions.caffeine
   ];
