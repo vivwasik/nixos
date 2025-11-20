@@ -77,6 +77,7 @@
     opusTools
     ffmpeg
     rsgain
+    steam-run
   ];
 
   dconf = {
