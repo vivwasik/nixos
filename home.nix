@@ -94,5 +94,6 @@
     };
   };
 
+  home.enableNixpkgsReleaseCheck = false;
   home.stateVersion = "25.05";
 }
