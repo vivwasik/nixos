@@ -140,6 +140,8 @@
         "nix-command"
       ];
       auto-optimise-store = true;
+      keep-outputs = true;
+      keep-derivations = true;
     };
     gc = {
       automatic = true;
