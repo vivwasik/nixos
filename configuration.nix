@@ -97,6 +97,8 @@
     };
 
     printing.enable = true;
+
+    transmission.enable = true;
   };
   
   environment.gnome.excludePackages = with pkgs; [
