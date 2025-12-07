@@ -72,6 +72,7 @@
     gnome-solanum
     gnome-extension-manager
     prismlauncher
+    lunar-client
     tor-browser
     
     papirus-icon-theme
