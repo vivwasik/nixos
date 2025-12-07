@@ -71,6 +71,8 @@
     kdePackages.kdenlive
     gnome-solanum
     gnome-extension-manager
+    prismlauncher
+    tor-browser
     
     papirus-icon-theme
     pfetch
