@@ -39,6 +39,7 @@
       "/var/lib/sbctl"
       "/var/lib/bluetooth"
       "/var/lib/fprint"
+      "/var/lib/AccountsService"
       "/etc/NetworkManager/system-connections"
       "/etc/mullvad-vpn"
     ];
