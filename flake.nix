@@ -30,7 +30,9 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.viv = import ./home.nix;
+            home-manager.users.viv = {
+              imports = [ ./home.nix agenix.homeManagerModules.default ];
+            };
           }
           {
             environment.systemPackages = [
