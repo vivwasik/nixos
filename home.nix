@@ -38,6 +38,8 @@
         starship init fish | source
       '';
     };
+
+    firefox.enable = true;
   };
 
   services = {
@@ -54,7 +56,6 @@
   };
 
   home.packages = with pkgs; [
-    firefox
     spotify
     thunderbird
     discord
