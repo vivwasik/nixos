@@ -134,6 +134,8 @@
     powerOnBoot = true;
   };
   
+  hardware.sensor.iio.enable = true;
+
   age.secrets.github-oath.file = ./secrets/github-oath.age;
 
   nix = {
