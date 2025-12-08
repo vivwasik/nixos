@@ -81,6 +81,7 @@
     ffmpeg
     rsgain
     steam-run
+    bunnyfetch
   ];
 
   dconf = {
