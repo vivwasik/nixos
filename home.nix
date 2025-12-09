@@ -75,6 +75,7 @@
     prismlauncher
     lunar-client
     tor-browser
+    onlyoffice-desktopeditors
     
     papirus-icon-theme
     pfetch
