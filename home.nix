@@ -84,6 +84,7 @@
     rsgain
     steam-run
     bunnyfetch
+    bibata-cursors
   ];
 
   dconf = {
