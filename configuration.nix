@@ -22,6 +22,17 @@
     kernelPackages = pkgs.linuxPackages_zen;
     plymouth.enable = true;
   };
+
+  environment.variables = {
+    RUSTICL_ENABLE = "radeonsi";
+  };
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+    extraPackages = with pkgs; [
+      mesa.opencl # Enables Rusticl (OpenCL) support
+    ];
+  };
   
   networking.hostId = "e5a29261";
   
