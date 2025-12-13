@@ -101,6 +101,12 @@
     transmission.enable = true;
   };
   
+  programs.dconf.profiles.gdm.databases = [{
+    settings."org/gnome/mutter" = {
+      experimental-features = [ "scale-monitor-framebuffer" ];
+    };
+  }];
+
   environment.gnome.excludePackages = with pkgs; [
     totem
     epiphany
