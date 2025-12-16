@@ -76,6 +76,7 @@
     lunar-client
     tor-browser
     onlyoffice-desktopeditors
+    libreoffice
     
     papirus-icon-theme
     pfetch
