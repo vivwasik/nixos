@@ -77,6 +77,7 @@
     tor-browser
     onlyoffice-desktopeditors
     libreoffice
+    zoom-us
     
     papirus-icon-theme
     pfetch
