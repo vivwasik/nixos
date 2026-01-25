@@ -63,7 +63,6 @@
     picard
     nicotine-plus
     amberol
-    pika-backup
     fragments
     refine
     celluloid
