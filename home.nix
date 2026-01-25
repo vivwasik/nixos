@@ -68,7 +68,6 @@
     celluloid
     vscodium
     apostrophe
-    kdePackages.kdenlive
     gnome-solanum
     gnome-extension-manager
     prismlauncher
