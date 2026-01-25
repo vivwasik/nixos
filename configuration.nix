@@ -19,7 +19,7 @@
       enable = true;
       pkiBundle = "/var/lib/sbctl";
     };
-    kernelPackages = pkgs.linuxPackages_zen;
+    kernelPackages = pkgs.linuxPackages_latest;
     plymouth.enable = true;
   };
 
