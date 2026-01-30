@@ -76,6 +76,7 @@
     onlyoffice-desktopeditors
     libreoffice
     zoom-us
+    deja-dup
     
     papirus-icon-theme
     pfetch
