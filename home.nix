@@ -86,6 +86,7 @@
     steam-run
     bunnyfetch
     bibata-cursors
+    yt-dlp
   ];
 
   dconf = {
