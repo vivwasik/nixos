@@ -80,7 +80,7 @@
     
     papirus-icon-theme
     pfetch
-    opusTools
+    opus-tools
     ffmpeg
     rsgain
     steam-run
