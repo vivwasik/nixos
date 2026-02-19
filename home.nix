@@ -63,7 +63,6 @@
     picard
     nicotine-plus
     amberol
-    fragments
     refine
     celluloid
     vscodium
@@ -77,6 +76,7 @@
     libreoffice
     zoom-us
     deja-dup
+    transmission_4-gtk
     
     papirus-icon-theme
     pfetch
