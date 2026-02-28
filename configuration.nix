@@ -110,6 +110,8 @@
     printing.enable = true;
 
     transmission.enable = true;
+
+    fwupd.enable = true;
   };
   
   programs.dconf.profiles.gdm.databases = [{
