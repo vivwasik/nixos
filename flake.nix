@@ -18,6 +18,12 @@
     };
 
     # PATCHES
+
+    # update libopusenc to fix opus-tools build failure
+    nixpkgs-patch-libopusenc-bump = {
+      url = "https://github.com/NixOS/nixpkgs/pull/493745.diff";
+      flake = false;
+    };
   };
 
   outputs = { self, nixpkgs-patcher, nixpkgs, home-manager, impermanence, agenix, lanzaboote, ... }@inputs: {
