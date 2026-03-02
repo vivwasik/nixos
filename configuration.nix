@@ -115,8 +115,15 @@
   };
   
   programs.dconf.profiles.gdm.databases = [{
-    settings."org/gnome/mutter" = {
-      experimental-features = [ "scale-monitor-framebuffer" ];
+    settings = {
+      "org/gnome/mutter" = {
+        experimental-features = [ "scale-monitor-framebuffer" ];
+      };
+      "org/gnome/desktop/interface" = {
+        font-name = "FiraCode Nerd Font 11";
+        document-font-name = "FiraCode Nerd Font 12";
+        monospace-font-name = "FiraCode Nerd Font Mono 11";
+      };
     };
   }];
 
