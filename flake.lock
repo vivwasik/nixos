@@ -243,13 +243,13 @@
     "nixpkgs-patch-libopusenc-bump": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-JpE7PyDkRXnWfvuapuzhpAs9oouejVW8RYINRMsGVRg=",
+        "narHash": "sha256-IvGLAvw5EtF39azguOr6vFcilHt1hp9SEmhDUXNJGtI=",
         "type": "file",
-        "url": "https://github.com/NixOS/nixpkgs/pull/493745.diff"
+        "url": "https://github.com/NixOS/nixpkgs/pull/493745.patch"
       },
       "original": {
         "type": "file",
-        "url": "https://github.com/NixOS/nixpkgs/pull/493745.diff"
+        "url": "https://github.com/NixOS/nixpkgs/pull/493745.patch"
       }
     },
     "nixpkgs-patcher": {

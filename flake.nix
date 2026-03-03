@@ -21,7 +21,7 @@
 
     # update libopusenc to fix opus-tools build failure
     nixpkgs-patch-libopusenc-bump = {
-      url = "https://github.com/NixOS/nixpkgs/pull/493745.diff";
+      url = "https://github.com/NixOS/nixpkgs/pull/493745.patch";
       flake = false;
     };
   };
