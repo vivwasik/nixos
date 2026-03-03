@@ -101,6 +101,11 @@
     settings."org/gnome/mutter" = {
       experimental-features = [ "scale-monitor-framebuffer" ];
     };
+    settings."org/gnome/desktop/interface" = {
+      font-name = "FiraCode Nerd Font 11";
+      document-font-name = "FiraCode Nerd Font 12";
+      monospace-font-name = "FiraCode Nerd Font Mono 11";
+    };
   };
 
   home.enableNixpkgsReleaseCheck = false;
