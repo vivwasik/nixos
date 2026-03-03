@@ -30,11 +30,15 @@
         set fish_greeting # Disable greeting
         fish_add_path ~/.local/bin
         
-        alias rebuild="doas nixos-rebuild switch --flake ~/nixos#laptop"
-        alias update-flake="pushd ~/nixos; nix flake update; popd"
-        alias clear="clear && pfetch"
-        pfetch
+        function rebuild
+            doas nixos-rebuild $argv --flake ~/nixos#laptop
+        end
 
+        alias update-flake="pushd ~/nixos; nix flake update; popd"
+
+        alias clear="clear && pfetch"
+
+        pfetch
         starship init fish | source
       '';
     };
