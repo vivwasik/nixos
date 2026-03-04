@@ -95,13 +95,6 @@
 
   dconf = {
     enable = true;
-    settings."org/gnome/shell" = {
-      disable-user-extensions = false;
-      enabled-extensions = with pkgs.gnomeExtensions; [
-        alphabetical-app-grid.extensionUuid
-        caffeine.extensionUuid
-      ];
-    };
     settings."org/gnome/mutter" = {
       experimental-features = [ "scale-monitor-framebuffer" ];
     };
