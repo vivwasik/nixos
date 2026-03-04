@@ -124,8 +124,6 @@
       font-name = "FiraCode Nerd Font 11";
       document-font-name = "FiraCode Nerd Font 12";
       monospace-font-name = "FiraCode Nerd Font Mono 11";
-      cursor-theme = "Bibata-Modern-Classic";
-      icon-theme = "Papirus";
     };
   }];
 
