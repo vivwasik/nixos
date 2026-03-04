@@ -166,8 +166,11 @@
   
   hardware.sensor.iio.enable = true;
 
-  age.secrets.github-oath.file = ./secrets/github-oath.age;
-
+  age.secrets.github-oath = {
+    file = ./secrets/github-oath.age;
+    mode = "444";
+  };
+  
   nix = {
     settings = {
       experimental-features = [
