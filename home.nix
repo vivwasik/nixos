@@ -91,6 +91,7 @@
     bunnyfetch
     bibata-cursors
     yt-dlp
+    amd-debug-tools
   ];
 
   dconf = {
