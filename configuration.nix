@@ -88,8 +88,6 @@
   environment.systemPackages = with pkgs; [
     git
     sbctl
-    papirus-icon-theme
-    bibata-cursors
   ];
 
   programs.steam = {
