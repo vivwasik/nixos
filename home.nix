@@ -82,14 +82,12 @@
     deja-dup
     transmission_4-gtk
     
-    papirus-icon-theme
     pfetch
     opus-tools
     ffmpeg
     rsgain
     steam-run
     bunnyfetch
-    bibata-cursors
     yt-dlp
     amd-debug-tools
   ];
