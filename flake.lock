@@ -240,6 +240,18 @@
         "type": "github"
       }
     },
+    "nixpkgs-patch-kernel-bump-6_19_6": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-e/8RfKxHLOL65ilPl02pn/Jk2hEPmPd+tL41gXZeuBs=",
+        "type": "file",
+        "url": "https://github.com/NixOS/nixpkgs/pull/496567.patch"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/NixOS/nixpkgs/pull/496567.patch"
+      }
+    },
     "nixpkgs-patch-libopusenc-bump": {
       "flake": false,
       "locked": {
@@ -332,6 +344,7 @@
         "impermanence": "impermanence",
         "lanzaboote": "lanzaboote",
         "nixpkgs": "nixpkgs_3",
+        "nixpkgs-patch-kernel-bump-6_19_6": "nixpkgs-patch-kernel-bump-6_19_6",
         "nixpkgs-patch-libopusenc-bump": "nixpkgs-patch-libopusenc-bump",
         "nixpkgs-patcher": "nixpkgs-patcher"
       }
