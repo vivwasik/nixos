@@ -38,6 +38,10 @@
 
         alias clear="clear && pfetch"
 
+        function scrcpy-fix
+            SDL_VIDEODRIVER=x11 scrcpy --render-driver=opengles2 $argv
+        end
+
         pfetch
         starship init fish | source
       '';
@@ -93,6 +97,7 @@
     yt-dlp
     amd-debug-tools
     android-tools
+    scrcpy
   ];
 
   dconf = {
