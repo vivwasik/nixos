@@ -92,6 +92,7 @@
     bibata-cursors
     yt-dlp
     amd-debug-tools
+    android-tools
   ];
 
   dconf = {
