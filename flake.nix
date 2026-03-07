@@ -5,7 +5,7 @@
     nixpkgs = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
     };
-    nixpkgs-patcher.url = "github:gepbird/nixpkgs-patcher";
+    # nixpkgs-patcher.url = "github:gepbird/nixpkgs-patcher";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -16,14 +16,11 @@
       url = "github:nix-community/lanzaboote/v0.4.3";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    # PATCHES
-
   };
 
-  outputs = { self, nixpkgs-patcher, nixpkgs, home-manager, impermanence, agenix, lanzaboote, ... }@inputs: {
+  outputs = { self, nixpkgs, home-manager, impermanence, agenix, lanzaboote, ... }@inputs: {
     nixosConfigurations = {
-      laptop = nixpkgs-patcher.lib.nixosSystem {
+      laptop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./configuration.nix
