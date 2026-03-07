@@ -332,7 +332,6 @@
         "impermanence": "impermanence",
         "lanzaboote": "lanzaboote",
         "nixpkgs": "nixpkgs_3",
-        "nixpkgs-patch-kernel-bump-6_19_6": "nixpkgs-patch-kernel-bump-6_19_6",
         "nixpkgs-patcher": "nixpkgs-patcher"
       }
     },

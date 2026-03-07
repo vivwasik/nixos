@@ -19,11 +19,6 @@
 
     # PATCHES
 
-    # update early to kernel 6.19.6
-    nixpkgs-patch-kernel-bump-6_19_6 = {
-      url = "https://github.com/NixOS/nixpkgs/pull/496567.patch";
-      flake = false;
-    };
   };
 
   outputs = { self, nixpkgs-patcher, nixpkgs, home-manager, impermanence, agenix, lanzaboote, ... }@inputs: {
