@@ -10,7 +10,7 @@
       settings = {
         user = {
           name = "vivwasik";
-          email = "wasik@mailbox.org";
+          email = "vivwasik@gmail.com";
           signingkey = "~/.ssh/id_ed25519.pub";
         };
         commit.gpgsign = true;
